@@ -4,7 +4,7 @@ setup(
     name = 'wasteDetection',
     version= '0.0.0',
     author= 'Rishika  A S',
-    author_email= 'rishika.as24@gmail.com',
+    author_email= 'sjit.rishika@gmail.com',
     packages= find_packages(),
     install_requires = []
 
