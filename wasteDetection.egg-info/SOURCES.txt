@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+wasteDetection.egg-info/PKG-INFO
+wasteDetection.egg-info/SOURCES.txt
+wasteDetection.egg-info/dependency_links.txt
+wasteDetection.egg-info/top_level.txt
