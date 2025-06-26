@@ -8,22 +8,22 @@ This project focuses on **automatic garbage classification** using the **YOLOv5 
 
 ## 📂 Project Structure
 
-AICTE-Internship/
-├── app.py #  Flask web app
-├── data/ # Additional config or test data
-├── Data_garbage/ # Main dataset (images of garbage)
-├── Dockerfile # Docker containerization
-├── yolov5/ # YOLOv5 repository (cloned or modified)
-├── wasteDetection/ # Python package for detection logic
-├── wasteDetection.egg-info/ # Package metadata
-├── templates/ # HTML templates (if Flask-based app)
-├── template.py # Utility or HTML rendering code
-├── setup.py # Package setup file
-├── requirements.txt # Python dependencies
-├── LICENSE # License file (e.g., MIT)
-├── .gitignore # Git ignore rules
-├── README.md # 📘 You're here!
-└── reseach/ # Jupyter notebooks or experiments
+ AICTE-Internship/
+ ├── app.py #  Flask web app
+ ├── data/ # Additional config or test data
+ ├── Data_garbage/ # Main dataset (images of garbage)
+ ├── Dockerfile # Docker containerization
+ ├── yolov5/ # YOLOv5 repository (cloned or modified)
+ ├── wasteDetection/ # Python package for detection logic
+ ├── wasteDetection.egg-info/ # Package metadata
+ ├── templates/ # HTML templates (if Flask-based app)
+ ├── template.py # Utility or HTML rendering code
+ ├── setup.py # Package setup file
+ ├── requirements.txt # Python dependencies
+ ├── LICENSE # License file (e.g., MIT)
+ ├── .gitignore # Git ignore rules
+ ├── README.md # 📘 You're here!
+ └── reseach/ # Jupyter notebooks or experiments
 
 
 ---
