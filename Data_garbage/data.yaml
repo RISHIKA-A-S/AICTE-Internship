@@ -1,13 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /Users/rishikaas/Desktop/AICTE-Internship/Data_garbage/train/images
+val: /Users/rishikaas/Desktop/AICTE-Internship/Data_garbage/test/images
 
 nc: 6
 names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 
-roboflow:
-  workspace: myprojects-vaos5
-  project: waste-detection-gzunr-h57c9
-  version: 2
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/myprojects-vaos5/waste-detection-gzunr-h57c9/dataset/2
