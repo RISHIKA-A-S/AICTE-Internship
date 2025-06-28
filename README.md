@@ -8,22 +8,43 @@ This project focuses on **automatic garbage classification** using the **YOLOv5 
 
 ## 📂 Project Structure
 
- AICTE-Internship/
- ├── app.py #  Flask web app
- ├── data/ # Additional config or test data
- ├── Data_garbage/ # Main dataset (images of garbage)
- ├── Dockerfile # Docker containerization
- ├── yolov5/ # YOLOv5 repository (cloned or modified)
- ├── wasteDetection/ # Python package for detection logic
- ├── wasteDetection.egg-info/ # Package metadata
- ├── templates/ # HTML templates (if Flask-based app)
- ├── template.py # Utility or HTML rendering code
- ├── setup.py # Package setup file
- ├── requirements.txt # Python dependencies
- ├── LICENSE # License file (e.g., MIT)
- ├── .gitignore # Git ignore rules
- ├── README.md # 📘 You're here!
- └── reseach/ # Jupyter notebooks or experiments
+  -> AICTE-Internship/app.py: Streamlit or Flask web app
+  
+  -> data/: Additional config or test data
+  
+  -> Data_garbage/: Main dataset (images and labels for YOLOv5)
+    
+  ->images/:
+      train/: Training images
+      val/: Validation images
+    labels/:
+      train/: YOLO-format labels for training
+      val/: YOLO-format labels for validation
+    data.yaml: YOLOv5 data config file
+
+  ->Dockerfile: Containerization instructions
+
+  ->yolov5/: YOLOv5 repository (cloned or customized)
+
+  ->wasteDetection/: Python package for detection logic
+
+  ->wasteDetection.egg-info/: Metadata for package distribution
+
+  ->templates/: HTML templates (used if app is Flask-based)
+
+  ->template.py: Script for rendering or support logic
+
+  ->setup.py: Python packaging setup script
+
+  ->requirements.txt: Required Python dependencies
+
+  ->LICENSE: Licensing information (e.g., MIT)
+
+  ->.gitignore: Git exclusion rules
+
+  ->README.md: Project documentation
+
+  ->reseach/: Jupyter notebooks or experimental code
 
 
 ---
