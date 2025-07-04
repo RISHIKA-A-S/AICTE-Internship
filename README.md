@@ -119,8 +119,9 @@ OpenCV
 
 Docker (for containerization)
 
----
 
+
+---
 🧪 Future Work
 
 -Real-time classification via webcam
@@ -129,14 +130,14 @@ Docker (for containerization)
 
 -Smart bin integration (IoT)
 
----
 
+---
 👩‍💻 Author
 Rishika A S
 Department of IT, St. Joseph’s Institute of Technology
 
----
 
+---
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
