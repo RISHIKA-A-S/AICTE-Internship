@@ -122,7 +122,7 @@ Docker (for containerization)
 
 
 ---
-🧪 Future Work
+###🧪 Future Work
 
 -Real-time classification via webcam
 
